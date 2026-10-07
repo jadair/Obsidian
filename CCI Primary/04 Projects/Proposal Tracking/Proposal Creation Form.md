@@ -1,0 +1,93 @@
+Derived from [create.html](/Users/jda57/repos/CCIA/templates/proposaltracking/proposal/proposal/create.html#L6), [create.js](/Users/jda57/repos/CCIA/static/js/proposal/create.js#L2), and [views.py](/Users/jda57/repos/CCIA/ProposalTrackingSystem/proposal/views.py#L735).
+
+**Current Requirements**
+- Access is restricted to authenticated users with `proposal.add_proposal`; the page is rendered by `proposal_create`, and submission goes to `proposal_create_api` via AJAX.
+- The page includes a header, help mailto link, and a visual progress bar, but the progress bar has no behavior attached.
+- Reference data needed at render time:
+  - `proposal_types`: active types limited to `New`, `Resubmission`, `Letter of Intent`, `Subcontract`.
+  - `pts_users`: users in group `proposal_tracking_users`, sorted by last name.
+  - `roles`: all roles except `Key Personnel`.
+  - `orgs`: all organizations except codes `3826` and `3629`.
+- Core proposal fields:
+  - `Project Title`: required text.
+  - `CCI Lead`: required select from `pts_users`.
+  - `Proposal Type`: required select from filtered proposal types.
+  - `Funding Amount Requested`: optional numeric.
+  - `Amount Requested CCI`: optional numeric.
+  - `Project Start Date`: optional date text input.
+  - `Project End Date`: optional date text input.
+  - `Project Description`: optional textarea.
+  - `Additional Notes`: optional textarea.
+- Solicitation fields:
+  - Hidden `existing_sol` defaults to `No`.
+  - Hidden `solId` supports linking an existing solicitation.
+  - `Solicitation Title`: required text.
+  - `Prime Sponsor`: required text, plus hidden `proPrimeSponsorId`.
+  - `Open Deadline`: yes/no radio shown, but not actually enforced by validation.
+  - `Solicitation Deadline Date`: required text date field.
+  - `Solicitation URL`: optional text.
+  - `Sponsor`: required text, plus hidden `solSponsorId`.
+  - If proposal type text is exactly `Subcontract`, the label changes from `Sponsor` to `Lead Institution`, and `Lead Institution Deadline` appears and becomes required.
+- Equipment section:
+  - Required yes/no radio: “Does this proposal require an equipment quote for the budget?”
+  - `proEquipmentDesc` textarea exists for the description.
+- Subcontractor section:
+  - Required yes/no radio: “Is Drexel issuing a subcontract to another Institution?”
+  - Dynamic repeatable rows with `Institution Name`, `Contact Name`, `Contact Email`.
+- External collaborator section:
+  - Required yes/no radio: “Does this proposal have external collaborators?”
+  - Dynamic repeatable rows with `Institution`, `Contact Name`, `Contact Email`.
+- Peer review section:
+  - Required yes/no radio.
+  - `No` is preselected by default.
+- Team sections:
+  - `CCI Team Members`: first row plus add/remove extra rows.
+  - Each row has `Name` (select from `pts_users`), `Dept/Org` (select), `Role` (select).
+  - `Other Drexel Team Members`: first row plus add/remove extra rows.
+  - Each row has `Name` (free text), `Dept/Org` (select), `Role` (select).
+
+**Behavior And Validation**
+- All `.datepicker` inputs use a datepicker and are revalidated on date change.
+- `solDeadline` must parse as `mm/dd/yyyy`.
+- `Project Title`, `Proposal Type`, `CCI Lead`, `Prime Sponsor`, `Solicitation Title`, `Solicitation Deadline`, `Sponsor`, `peer_review`, and the three yes/no radios are validated in JS.
+- CCI team rows use all-or-nothing validation across `Name`, `Dept/Org`, and `Role`.
+- External Drexel team rows also use all-or-nothing validation across `Name`, `Dept/Org`, and `Role`.
+- Collaborator rows are not field-validated; the radio is required, but the row fields are optional.
+- Tooltips are shown for Prime Sponsor and Sponsor.
+- `collab-wrapper` is hidden on initial load; `equipment-wrapper` and `sub-wrapper` are not hidden initially.
+- Add/remove behaviors exist for subcontractors, collaborators, CCI team members, and external team members.
+- Only the first CCI team member select gets `select2` on initial load; added CCI rows also get `select2`.
+- Success flow shows a modal alert with a proposal-details link and a home link, then OK redirects to `/pts/proposal/all/`.
+
+**Submission And Persistence**
+- The submit handler disables the button, shows a loading modal, and posts to `/pts/proposal/api/proposal/`.
+- Backend creates a `Proposal` with:
+  - `title` from `proTitle`
+  - `owner` = current user
+  - `amount_requested`, `total_cci_requested`
+  - `cci_lead`
+  - `equipment_quote`, `equipment_desc`
+  - `project_description`
+  - `project_start_date`, `project_end_date`
+  - `mark_for_peer_review`
+  - `proposal_type`
+  - `status` fixed to `Created`
+  - `owning_org` and `department` derived from the selected CCI lead’s profile
+- Prime sponsor is get-or-created by name.
+- A new `Solicitation` is created unless `existing_sol == 'Yes'`; for new solicitations it stores title, deadline, sponsor, URL, `open_deadline`, and `institution_deadline_date` for subcontract proposals.
+- Every submitted notes value creates a `NoteField` attached to the proposal.
+- Team rows become `TeamMember` records if `org` is present.
+- Subcontractor rows become `Subcontractor` records.
+- Collaborator rows become `Collaborator` records only if `institution` is non-empty.
+- After save, proposal creation emails are sent, and the API returns the proposal PK.
+
+**Legacy Quirks To Decide Whether To Preserve**
+- The current AJAX contract is inconsistent: the client sends a JSON string containing `form: $(form).serialize()`, while the backend reads scalar values from `request.POST` and arrays from `request.body`. A React rewrite should define one explicit request shape and use it consistently.
+- Sponsor autocomplete and solicitation-match code exist in JS, but the inputs are not wired to those functions in the provided template.
+- Existing-solicitation JS references DOM elements that do not exist in the current template, so that feature appears stale/incomplete.
+- `Open Deadline` has an error container but no active validation rule.
+- `Sponsor` is marked required in JS for all proposal types; the inline DOM logic only toggles the HTML `required` flag.
+- `Prime Sponsor` hidden ID is effectively ignored because the backend always falls back to `get_sponsor(name)`.
+- The first CCI team row hardcodes two org options, `Computing` and `Informatics`; added rows do not.
+- File-upload support is partially present in context/scripts, but there is no upload control on this form.
+- Radio inputs reuse duplicate element IDs like `equipmentY`.

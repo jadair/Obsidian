@@ -1,0 +1,294 @@
+{
+  "main": {
+    "id": "6d5ebcc160a0a35a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac8fcfb414dff589",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d395266911f3398a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Daily Notes/2026-04-29.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-29"
+            }
+          },
+          {
+            "id": "32f69f48500725df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 Resources/Design Constraints and Prompts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Design Constraints and Prompts"
+            }
+          },
+          {
+            "id": "2edefce799fd1fc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Projects/CCIA/Facilities/Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "d9234a922a3cf993",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Projects/Dev Ops/Computing Resources/Vcenter Draft requirements.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vcenter Draft requirements"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5a79b419737f8d2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb3f43b755282e4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa5612108bfa74a7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "105a2cca017c2c7e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2808810e0a4ccd73",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 203.50271224975586
+  },
+  "right": {
+    "id": "6104887e084cd824",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc5313ece71f75e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c48542c19a88ee5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "4fae397e0ba49e22",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "eecd20a8db7e8ef7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a80c524b21245918",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a4c5a5db8592ccf0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 Daily Notes/2026-04-14.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2026-04-14"
+            }
+          },
+          {
+            "id": "1bfab11287e0f4c2",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "periodic-notes:Open today": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "d9234a922a3cf993",
+  "lastOpenFiles": [
+    "02 Projects/Docusign/Tasks.md",
+    "02 Projects/Docusign/Home.md",
+    "02 Projects/Docusign/External Stakeholder Project Workflow.md",
+    "02 Projects/Docusign/Docusign OneDrive Integration.md",
+    "02 Projects/Docusign/Docusign Configuration.md",
+    "02 Projects/Docusign/Docusign Api Info.md",
+    "02 Projects/Docusign/Documents.md",
+    "02 Projects/Docusign/Current CCI Needs.md",
+    "99 Archive/Home.md",
+    "02 Projects/FIND",
+    "04 Resources/Home.md",
+    "04 Resources/Design Constraints and Prompts.md",
+    "Internal Apps/Home.md",
+    "02 Projects/Advanced Therapeutics/Untitled.md",
+    "02 Projects/Advanced Therapeutics/Tasks.md",
+    "02 Projects/Advanced Therapeutics/Home.md",
+    "02 Projects/Advanced Therapeutics/Advanced Therapeutics MS Program.md",
+    "01 Daily Notes/2026-05-14.md",
+    "02 Projects/CCI Website/CCI Website.md",
+    "01 Daily Notes/2026-05-06.md",
+    "01 Daily Notes/2026-05-05.md",
+    "01 Daily Notes/2026-04-29.md",
+    "01 Daily Notes/2026-04-28.md",
+    "01 Daily Notes/2026-04-23.md",
+    "01 Daily Notes/2026-04-21.md",
+    "01 Daily Notes/2026-04-14.md",
+    "01 Daily Notes/2026-04-12.md",
+    "02 Projects/ember",
+    "Untitled.canvas",
+    "02 Projects/CCIA/Facilities",
+    "02 Projects/Misc",
+    "02 Projects/CCI Website",
+    "02 Projects/Codefest/2027",
+    "02 Projects/Showcase/Releases",
+    "Pasted image 20260427141102.png",
+    "02 Projects/Showcase/Redesign",
+    "02 Projects/Research/Razi",
+    "02 Projects/Dev Ops",
+    "Pasted image 20260409103217.png",
+    "Pasted image 20260409102900.png",
+    "Pasted image 20260409102702.png",
+    "Pasted image 20260408131828.png",
+    "Pasted image 20260330131202.png",
+    "Pasted image 20260330131254.png",
+    "Pasted image 20260330131358.png",
+    "Pasted image 20260313114237.png"
+  ]
+}

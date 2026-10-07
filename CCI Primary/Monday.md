@@ -1,0 +1,4 @@
+- Deploy User Profile and Discord apps updates
+- Workon Caretaker Deployment and Server Setup
+- Work on Event Request
+- Proposal Page Review 

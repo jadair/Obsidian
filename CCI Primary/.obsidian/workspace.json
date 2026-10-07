@@ -1,0 +1,372 @@
+{
+  "main": {
+    "id": "6d5ebcc160a0a35a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac8fcfb414dff589",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dea18d507949ef4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CCI IT Biweekly.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CCI IT Biweekly"
+            }
+          },
+          {
+            "id": "30e2a11f4b885a35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Daily Notes/Untitled 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
+          },
+          {
+            "id": "82a738befa663cc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 4.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 4"
+            }
+          },
+          {
+            "id": "a21957a8cc838adf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Monday.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Monday"
+            }
+          },
+          {
+            "id": "be2d566572ba2cf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Support Site.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Support Site"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5a79b419737f8d2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb3f43b755282e4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa5612108bfa74a7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "105a2cca017c2c7e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2808810e0a4ccd73",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 304.6796875
+  },
+  "right": {
+    "id": "6104887e084cd824",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc5313ece71f75e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c48542c19a88ee5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "4fae397e0ba49e22",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "eecd20a8db7e8ef7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a80c524b21245918",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a4c5a5db8592ccf0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled 3.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "1bfab11287e0f4c2",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          },
+          {
+            "id": "7a994206f35498b3",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 221.8359375,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "realclaudian:Open Claudian": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "be2d566572ba2cf2",
+  "lastOpenFiles": [
+    "Monday.md",
+    "Support Site.md",
+    "Untitled 4.md",
+    "02 Daily Notes/Untitled 1.md",
+    "Untitled 3.md",
+    "Pasted image 20260911103640.png",
+    "Pasted image 20260911103627.png",
+    "CCI IT Biweekly.md",
+    "04 Projects/CCIA/Releases.md",
+    "07 Templates/meeting-template.md",
+    "Event Form.md",
+    "03 Meetings/Data Export.md",
+    "03 Meetings/Caretaker.md",
+    "04 Projects/Caretaker/Caretaker.md",
+    "03 Meetings/Untitled.md",
+    "03 Meetings/Scheduler Term Export 07-27-2026.md",
+    "03 Meetings/Server Inventory App (Caretaker).md",
+    "04 Projects/Caretaker",
+    "07 Templates/one-on-one-template.md",
+    "07 Templates/project-overview-template.md",
+    "07 Templates/RELEASE_TEMPLATE.md",
+    "Proposal Tracking.md",
+    "Pasted image 20260831132930.png",
+    "Pasted image 20260724105736.png",
+    "Pasted image 20260724104805.png",
+    "Misc.md",
+    "(Transcripts.md",
+    "Pasted image 20260827144723.png",
+    "Untitled 2.md",
+    "04 Projects/Senior Project Legacy/NIghtmare site.md",
+    "senior_project_projects_and_teams.csv",
+    "01 Inbox/random-ideas.md",
+    "04 Projects/Senior Project Legacy",
+    "01 Inbox/Capture.md",
+    "04 Projects/CCIA/Testign release notes.md",
+    "04 Projects/Dev Ops/Ansible Automation",
+    "04 Projects/Dev Ops/Certificate Manager",
+    "04 Projects/FIND/Meetings & Assets/Transcripts & Docs/Franklin Health Trust Funds - Working Session.docx",
+    "04 Projects/FIND/Meetings & Assets/Transcripts & Docs",
+    "04 Projects/FIND/Meetings & Assets/Meeting Notes",
+    "04 Projects/FIND/Meetings & Assets",
+    "04 Projects/Proposal Tracking",
+    "01 Inbox/Pasted image 20260330131202.png",
+    "04 Projects/Codefest/02 Documentation/Pasted image 20260330131358.png",
+    "04 Projects/Codefest/02 Documentation/Pasted image 20260330131254.png",
+    "04 Projects/Codefest/Pasted image 20260408131828.png",
+    "Untitled.canvas"
+  ]
+}

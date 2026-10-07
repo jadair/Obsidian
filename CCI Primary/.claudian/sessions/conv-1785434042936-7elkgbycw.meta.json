@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785434042936-7elkgbycw",
+  "providerId": "claude",
+  "title": "Refine meeting notes from Teams call",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785434042957,
+  "updatedAt": 1788878436248,
+  "lastResponseAt": 1788878436248,
+  "sessionId": "9e5d4d0f-9cc8-45c2-9c97-75b394570bc4",
+  "selectedModel": "sonnet",
+  "providerState": {
+    "providerSessionId": "9e5d4d0f-9cc8-45c2-9c97-75b394570bc4"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 294,
+    "cacheReadInputTokens": 55791,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 56087,
+    "percentage": 6
+  }
+}
